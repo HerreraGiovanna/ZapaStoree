@@ -27,5 +27,5 @@ document.querySelectorAll('.agregar-carrito').forEach(boton => {
     contador++;
     document.getElementById('contador-carrito').innerText = contador;
     alert('Producto agregado al carrito 🛒');
-  });
+});
 });
