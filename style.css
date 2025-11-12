@@ -58,3 +58,28 @@ footer a:hover {
   margin-left: 5px;
   font-size: 0.9rem;
 }
+cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espacio entre el ícono y el número */
+  background-color: #007bff; /* azul */
+  padding: 10px 15px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  color: white;
+}
+
+.cart-icon {
+  width: 26px;
+  height: 26px;
+  filter: invert(1); /* deja el ícono blanco */
+}
+
+#cart-count {
+  font-size: 1.1em;
+  font-weight: bold;
+}
