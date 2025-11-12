@@ -20,3 +20,12 @@ miboton.addEventListener('click', (e)=>{
   e.preventDefault()
   alert("El formulario se envio correctamente")
 })
+let contador = 0;
+
+document.querySelectorAll('.agregar-carrito').forEach(boton => {
+  boton.addEventListener('click', () => {
+    contador++;
+    document.getElementById('contador-carrito').innerText = contador;
+    alert('Producto agregado al carrito 🛒');
+  });
+});

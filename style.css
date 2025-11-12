@@ -54,4 +54,7 @@ footer a:hover {
   color: #333;
   font-weight: 600;
 }
-
+#contador-carrito {
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
