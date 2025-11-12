@@ -83,3 +83,35 @@ cart {
   font-size: 1.1em;
   font-weight: bold;
 }
+.redes-sociales {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.redes-sociales h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.social-list li a:hover {
+  color: #007bff; /* azul */
+}
+
+.social-list i {
+  margin-right: 5px;
+}
