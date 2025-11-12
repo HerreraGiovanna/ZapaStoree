@@ -44,5 +44,14 @@ footer a:hover {
   object-fit: cover;
   border-radius: 8px;
 }
+#ubicacion {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  border-top: 2px solid #eee;
+}
 
+#ubicacion h2 {
+  color: #333;
+  font-weight: 600;
+}
 
