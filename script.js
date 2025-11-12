@@ -14,3 +14,9 @@ const appearOnScroll = new IntersectionObserver(function (entries, observer) {
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
+
+const miboton = document.getElementById("boton-enviar")
+miboton.addEventListener('click', (e)=>{
+  e.preventDefault()
+  alert("El formulario se envio correctamente")
+})
